@@ -1,0 +1,83 @@
+div{
+    font-size: 20px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/Img/banner-02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:chartreuse;
+}
+h2{
+    text-align: center;
+}
+.login{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    border-radius: 5%;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    text-align: center;
+}
+.login label{
+    margin: 5px;
+    padding: 5px;
+}
+.login input{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.login input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 17px;
+}
+button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:blue;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+button[type=submit]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:-70px;
+    left:110px;    
+}
+button{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    line-height: 20px;
+    color: darkgray;
+    font-weight: bold; 
+    font-size: larger;
+}
+a:hover{
+    color: #ffc107;
+}
