@@ -8,10 +8,12 @@
     <title>Online Stock</title>
   </head>
   <body>
+    <script src="valid.js"></script>
+    <a href="homepage.html">Home</a>
     <h1>Online Inventory Stock System</h1>
-    <div style="line-height: 1cm;">
+    <div style="line-height: 1cm">
       <div class="login">
-        <form action="get">
+        <form name="Online" onsubmit="return validate();  return false;">
           <img src="VS.png" class="icon" alt="" />
           <h2>User Login</h2>
           <label for="login">Login ID</label>
@@ -20,15 +22,19 @@
             name=""
             placeholder="Enter User name"
             required=""
+            id="username"
           />
           <label for="Password">Password</label>
           <input
             type="Password"
             placeholder="Enter Your Password"
             required=""
+            id="password"
           />
           <div>
-            <button type="submit" value="Login In">Log In</button>
+            <button onclick="validate()" type="submit" value="Login" id="submit">
+              Log In
+            </button>
           </div>
           <div>
             <a href="#">Lost your Account ?</a>
