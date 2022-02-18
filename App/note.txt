@@ -1,0 +1,53 @@
+/*
+var mysql = require('mysal'); 
+var express = require('express'); 
+var app = express();
+app.get('/', function (request, response) {
+fetchData (response);
+console.log('Done. Displayed Data!!'); 
+});
+
+var db = mysql.createconnection({
+host:'localhost',
+user: ''
+password:'',
+database:''
+});
+
+//Now we have to create connection with database 
+
+db.connect(function(err) { 
+if(error) (throw error;)
+console.log("Connected to the database");
+)}
+function executeQuery (sql , cb) {
+db query (sql, function(error, result, fields) { 
+if(error) (throw error;)
+cb (result);})
+}
+function fetchData (response) { 
+executeQuery("Select * from Admin", function (result) {
+console.log(result); 
+response.write('<table><tr>'); 
+for (var column in result[0]) {
+response.Write('<td><label>' + column + '</label></td>');
+res.write('</tr>');
+}
+for (var row in result) {
+response.write('<tr>'); 
+for (var column in result[row]) {
+response.write('<td><label>' + result[row] [column] + "</label></td>');
+}
+response.write('</tr>');
+}
+response.end('</table>');
+});
+}
+app.listen (8080, function() {
+console.log('Listening to Port 8080');
+*/
+
+Node gives Express starting npm /libraries eg:- > HTTP
+Without Express try making HTTP server  
+Concurrency
+Node define in Notes copy

@@ -4,6 +4,8 @@ div{
 body{
     margin: 0px;
     padding: 0px;
+    width: 100%;
+    height:1000px;
     background-image: url('banner-02.jpg');
     background-repeat: no-repeat;
     background-size: cover;
