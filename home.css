@@ -1,9 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    background-image: url('./Img/BCk.jpg');
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-family: Ubuntu;
+}
+.edge{
+    width:100px;
+    height:100px;
+    background-color: aquamarine;
+    color: aqua;
+    top: 50px;
+    left: 50px;
+    position: relative;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-family: Ubuntu;
+    font-weight:900;
 }
 li {
     float: left;

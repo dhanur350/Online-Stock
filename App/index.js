@@ -1,13 +1,13 @@
-var mysql = require("mysql");
-var express = require("express");
-var app = express();
+let mysql = require("mysql");
+let express = require("express");
+let app = express();
 
 app.get("/", function (request, response) {
   fetchData(response);
   console.log("Here are the database data");
 });
 
-var db = mysql.createConnection({
+let db = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "turbo",
@@ -27,13 +27,13 @@ function fetchData(response) {
   executeQuery("select * from MyData", function (result) {
     console.log(result);
     response.write("<table>");
-    for (var column in result[0]) {
+    for (let column in result[0]) {
       response.write("<th><label>" + column + "</label></th>");
       //response.write("</td>");
     }
-    for (var row in result) {
+    for (let row in result) {
       response.write("<tr>");
-      for (var column in result[row]) {
+      for (let column in result[row]) {
         response.write("<td><label>" + result[row][column] + "</label></td>");
       }
       response.write("</tr>");
