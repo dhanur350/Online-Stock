@@ -2,14 +2,18 @@
 body{
     background-image: url('./Img/BCk.jpg');
     background-size: cover;
+    font-family: Ubuntu;
 }
 h1{
     color: white;
-    font-family: Ubuntu;
 }
-.edge{
-    width:100px;
-    height:100px;
+p{
+    color: #111;
+    font-size: 30px;
+}
+.edge1{
+    width:500px;
+    height:300px;
     background-color: aquamarine;
     color: aqua;
     top: 50px;
@@ -22,7 +26,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    font-family: Ubuntu;
     font-weight:900;
 }
 li {

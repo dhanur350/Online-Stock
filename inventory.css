@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 h1{
-    font-family: Ubuntu;
     position: relative;
     text-align: center;
+    font-size: 50px;
 }
-a{
+body{
     font-family: Ubuntu;
+    background-image: url('/Img/Project1.jpg');
+    background-size: cover;
+    color: white;
+}
+#liststk{
+    font-size: xx-large;
+}
+p{
+    font-size: 30px;
+}
+.ftr{
+    position: relative;
+    top: 600px;
+    text-align: center;
+    font-weight: bolder;
 }
