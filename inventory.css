@@ -6,7 +6,7 @@ h1{
 }
 body{
     font-family: Ubuntu;
-    background-image: url('/Img/Proj2.jpg');
+    background-image: url('Img/Proj2.jpg');
     background-size: cover;
     color: white;
 }
