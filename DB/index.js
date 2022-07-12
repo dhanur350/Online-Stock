@@ -4,11 +4,11 @@ const pool = createPool({
     host: "localhost",
     user: "root",
     password: "turbo",
-    database: "stock",
+    database: "MySQL",
     connectionLimit: 10
 })
 
-pool.query(`select * from saaman`, function(err, result, fields) {
+pool.query(`select * from MyData`, function(err, result, fields) {
     if (err) {
         return console.log(err);
     }
